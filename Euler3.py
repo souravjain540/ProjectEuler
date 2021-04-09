@@ -29,13 +29,13 @@ print(max(new_list))
 
 # In this i will take the concept of sqr root
 
-import math
+
 
 N = 600851475143
 
 add_final = []
 
-for i in range( 1, int( math.sqrt(N)) + 1 ):
+for i in range( 1, int( N**0.5) + 1 ):
     
     # Square root because factors start only after the
     # sqrt of the num and we can find the other
